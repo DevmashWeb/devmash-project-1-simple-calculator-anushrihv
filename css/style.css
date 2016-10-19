@@ -17,6 +17,7 @@ background-color:tan;
   background-color: gray;
   margin:auto;
   border-radius: 10px;
+  box-shadow: 5px 5px 4px 2px rgba(40,40,40,0.6);
 }
 p{
   margin:auto;
@@ -24,12 +25,19 @@ p{
   text-align: center;
 }
 button{
-  background-color: darkgray;
-  color:black;
+  background-color: black;
+  color:white;
+  background: -webkit-linear-gradient(top,#aadddd 0%,#77aaaa 100%);
+border: black;
+border-radius: 10px;
 }
 #display{
   width:350px;
   height:70px;
   background-color: black;
 margin:auto;
+}
+button:hover{
+  background: #77aaaa;
+  background: -webkit-linear-gradient(bottom,#aadddd 0%,#77aaaa 100%);
 }
