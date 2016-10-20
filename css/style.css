@@ -34,7 +34,7 @@ border-radius: 10px;
 #display{
   width:350px;
   height:70px;
-  background-color: black;
+  background-color: lightgray;
 margin:auto;
 }
 button:hover{

@@ -1,24 +1,23 @@
-var myVar=document.getElementById('display');
-
-myVar[0].onclick = function() { myVar[0].innerHTML= "Answer is " + 1;
+var display = document.getElementById("display");
+display.onclick = function() { display.innerHTML= "Answer is " + 1;
 };
 
 var myAns = ""  ;
 
 
-var a = function (x){
+var v = function (x){
     myAns= myAns + x;
-    myVar[0].innerHTML=myAns;
+    display.innerHTML=myAns;
 };
 
 var ac = function(){
     myAns="";
-    myVar[0].innerHTML=myAns;
+    display.innerHTML=myAns;
 };
 
-var ev=function(){
-   var resu;
-   resu = eval(myAns);
-    myVar[0].innerHTML=resu;
+var ev = function(){
+
+    var resu = eval(myAns);
+    display.innerHTML=resu;
     myAns="";
 };
